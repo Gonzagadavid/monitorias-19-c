@@ -5,76 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David Gonzaga</title>
-  <style>
-  body {
-    margin: 0;
-    background: linear-gradient(0deg, rgb(18, 30, 120), rgb(0, 0, 0));
-    color: #fff;
-    font-family: sans-serif;
-  }
-
-   a {
-    text-decoration: none;
-   }
-
-  ul {
-    text-align: start;
-  }
-
-  a:visited {
-    color: white;
-  }
-
-  #foto {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
-
-  .nav-bar {
-    background-color: rgba(0, 0, 0);
-    height: 80px;
-    font-size: 20px;
-    width: 100%;
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  
-  .nav-bar ul {
-    list-style: none;
-    padding-left: 70px;
-  }
-
-  .nav-bar li {
-    display: inline-block;
-    margin: 20px 40px ;
-  }
-  
-  .content {
-    text-align: center;
-    width: 80%;
-    margin: 100px auto 0;
-    font-size: 20px;
-  }
-
-  .profile ul {
-    text-align: center;
-    list-style: none;
-  }
-
-  .profile ul li a img {
-    width: 20px;
-  }
-
-  .container {
-    /* background-color: royalblue; */
-    padding-top: 100px;
-  }
-
-  </style>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/443c006cec.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="nav-bar">
@@ -85,14 +20,14 @@
       <li><a href="#outros"> Outros Projetos</a></li>
     </ul>
   </div>
-  <div class="content">
-    <div class="profile">
-
+  <div class="main">
+    <div class="content">
+      <div class="profile">
       <h1>David Gonzaga da Silva</h1>
       <img  src="./images/perfil.jpg" alt="foto de David Gonzaga"  id="foto" >
       <ul>
         <li><a href="https://github.com/Gonzagadavid" target="_blank"><img src="./images/github-brands.svg"/> GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/david-gonzaga/" target="_blank">  Linkedin</a></li>
+        <li><a href="https://www.linkedin.com/in/david-gonzaga/" target="_blank"><i class="fab fa-linkedin"></i>  Linkedin</a></li>
       </ul>
       
       <p>gonzagadaviddev@gmail.com</p>      
@@ -106,25 +41,29 @@
   
     <div id="skills" class="container">
       <h2 >Habildades</h2>
-      <h3>Habildades que mais me orgulho</h3>
-      <ul class="skills-ul">
-        <li><a>Aprendo com os erros;</a></li>
-        <li><a>Aproveito as oportunidades;</a></li>
-        <li><a>Dedicação máxima;</a></li>
-        <li><a>Empatia;</a></li>
-        <li><a>Expresso gratidão aos que me ajudam;</a></li>
-        <li><a>Atualização permanente na área;</a></li>
-        <li><a>Visão e atuação estratégica;</a></li>
-      </ul>  
-      <h3>Outras habildades</h3>
-      <ul class="skills-ul">
-        <li><a>HTML 5</a></li>
-        <li><a>CSS 3</a></li>
-        <li><a>JavaScript ES6</a></li>
-        <li><a>Node JS</a></li>
-        <li><a>Mongo DB</a></li>
-        <li><a>React JS</a></li>
-      </ul>
+      <div class="list">
+        <h3>Habildades que mais me orgulho</h3>
+        <ul class="skills-ul">
+          <li>Aprendo com os erros;</li>
+          <li>Aproveito as oportunidades;</li>
+          <li>Dedicação máxima;</li>
+          <li>Empatia;</li>
+          <li>Expresso gratidão aos que me ajudam;</li>
+          <li>Atualização permanente na área;</li>
+          <li>Visão e atuação estratégica;</li>
+        </ul>  
+      </div>
+      <div class="list">
+        <h3>Outras habildades</h3>
+        <ul class="skills-ul">
+          <li><a>HTML 5</a></li>
+          <li><a>CSS 3</a></li>
+          <li><a>JavaScript ES6</a></li>
+          <li><a>Node JS</a></li>
+          <li><a>Mongo DB</a></li>
+          <li><a>React JS</a></li>
+        </ul>
+      </div>
     </div>
     
     <div id="pessoal" class="container">
@@ -187,6 +126,7 @@
       <li><a href="https://github.com/Gonzagadavid/eloquent-exercicios" target="_blank">Exrcícios do livro Eloquent JavaScript</a></li>
     </ul>
   </div>
-  </div>
+</div>
+</div>
 </body>
 </html>

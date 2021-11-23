@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  background: linear-gradient(0deg, rgb(18, 30, 120), rgb(0, 0, 0));
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: coolvetica, sans-serif;
+}
+
+ a {
+  text-decoration: none;
+ }
+
+
+a:visited {
+  color: white;
+}
+
+#foto {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.nav-bar {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 25%;
+}
+
+.nav-bar ul {
+  margin-top: 70px;
+  list-style: none;
+}
+
+.nav-bar li {
+  font-size: 35px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.nav-bar li:hover {
+  background-color: #fff;
+}
+
+.nav-bar a {
+  display: inline-block;
+  padding: 25px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar a:hover {
+  color:rgb(0, 0, 0);
+}
+
+.content {
+  text-align: center;
+  width: 75%;
+  font-size: 20px;
+  margin-left: 25%;
+}
+
+.main {
+  width: 90%;
+  margin: auto;
+}
+
+.profile ul {
+  text-align: center;
+  list-style: none;
+}
+
+.profile ul li a img {
+  width: 20px;
+}
+
+.container {
+  /* padding-top: 100px; */
+}
+
+.list {
+  width: 40%;
+  margin: 20px auto;
+  background-color: black;
+  padding: 20px;
+}
+
+.list ul {
+  text-align: start;
+}
+
+@font-face {
+  font-family: 'coolvetica';
+  src: url('./font/coolvetica/coolvetica\ rg.otf');
+}

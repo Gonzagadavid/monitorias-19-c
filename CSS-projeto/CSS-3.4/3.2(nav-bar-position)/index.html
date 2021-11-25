@@ -42,6 +42,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
   }
   
   .nav-bar ul {
@@ -59,6 +60,7 @@
     width: 80%;
     margin: 100px auto 0;
     font-size: 20px;
+    z-index: 2;
   }
 
   .profile ul {
@@ -74,6 +76,20 @@
     background-color: royalblue;
     /* padding-top: 100px; */
     position: relative;
+  }
+
+  .left {
+    float: left;
+    background-color: darkgreen;
+    vertical-align: top;
+  }
+  .right {
+    float: right;
+    background-color: darkmagenta;
+  }
+
+  #pessoal {
+    clear: both;
   }
 
   .ref {
@@ -117,26 +133,32 @@
     <div  class="container">
       <div id="skills" class="ref"></div>
       <h2>Habildades</h2>
-      <h3>Habildades que mais me orgulho</h3>
-      <ul class="skills-ul">
-        <li><a>Aprendo com os erros;</a></li>
-        <li><a>Aproveito as oportunidades;</a></li>
-        <li><a>Dedicação máxima;</a></li>
-        <li><a>Empatia;</a></li>
-        <li><a>Expresso gratidão aos que me ajudam;</a></li>
-        <li><a>Atualização permanente na área;</a></li>
-        <li><a>Visão e atuação estratégica;</a></li>
-      </ul>  
-      <h3>Outras habildades</h3>
-      <ul class="skills-ul">
-        <li><a>HTML 5</a></li>
-        <li><a>CSS 3</a></li>
-        <li><a>JavaScript ES6</a></li>
-        <li><a>Node JS</a></li>
-        <li><a>Mongo DB</a></li>
-        <li><a>React JS</a></li>
-      </ul>
-    </div>
+      <div class="left">
+
+        <h3>Habildades que mais me orgulho</h3>
+        <ul class="skills-ul">
+          <li><a>Aprendo com os erros;</a></li>
+          <li><a>Aproveito as oportunidades;</a></li>
+          <li><a>Dedicação máxima;</a></li>
+          <li><a>Empatia;</a></li>
+          <li><a>Expresso gratidão aos que me ajudam;</a></li>
+          <li><a>Atualização permanente na área;</a></li>
+          <li><a>Visão e atuação estratégica;</a></li>
+        </ul>  
+      </div>
+      <div class="right">
+
+        <h3>Outras habildades</h3>
+        <ul class="skills-ul">
+          <li><a>HTML 5</a></li>
+          <li><a>CSS 3</a></li>
+          <li><a>JavaScript ES6</a></li>
+          <li><a>Node JS</a></li>
+          <li><a>Mongo DB</a></li>
+          <li><a>React JS</a></li>
+        </ul>
+      </div>
+      </div>
     
     <div id="pessoal" class="container">
      <h2 >Projetos de iniciativa pessoal</h2>

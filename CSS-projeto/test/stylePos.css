@@ -1,0 +1,31 @@
+.pai {
+  background-color: aqua;
+  height: 500px;
+}
+
+.parent{
+  margin: 50px;
+  border: 2px black dotted;
+  display: inline-block;
+  width: 500px;
+  position: relative;
+}
+
+h1 {
+  color:red;
+}
+.box{
+  display: inline-block;
+  background: red;
+  width: 100px;
+  height: 100px;
+  }
+
+  #two{
+    background-color: green;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 80px;
+    height: 100px;
+  }

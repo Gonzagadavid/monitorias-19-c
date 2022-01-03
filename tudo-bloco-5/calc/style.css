@@ -1,0 +1,61 @@
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: Calculator;
+  height: 100px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+
+.aparelho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 400px;
+  height: 500px;
+  margin: 20px 0px;
+  border-bottom: solid;
+  border-right: solid; 
+  border-radius: 3%;
+}
+
+.visor{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: dimgray;
+  width: 380px;
+  height: 80px;
+  margin: 10px;
+  font-size: 80px;
+  font-family: Calculator;
+  text-align: end;
+}
+
+.botoes{
+ margin-left: 11px;
+ margin-top: 5px;
+ width: 85px;
+ height: 70px;
+ font-size: 40px;
+ border-radius: 10%; 
+}
+
+body{
+  margin: 0%;
+}
+
+@font-face{
+  font-family: Calculator ;
+  src: url(./font/Calculator.ttf);
+}

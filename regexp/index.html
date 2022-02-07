@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #login-container{
+     width: 80%;
+     margin: auto; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+
+    input {
+      width: 40%;
+      height: 40px;
+      margin: 10px;
+      outline: none;     
+    }
+
+    #email {
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div id="login-container">
+    <h2>Login</h2>
+    <input type="text" id="email" placeholder="email">
+    <input type="password" id="password" placeholder="password">
+    <button id="enter-btn" disabled>Enter</button>
+  </div>
+  <script src="./validacao.js"></script>
+</body>
+</html>

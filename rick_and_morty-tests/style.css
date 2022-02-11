@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(rgb(22, 70, 90), rgb(22,22,22));
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+
+#btn-container button {
+  font-size: 20px;
+  padding: 10px;
+  background-color: cadetblue;
+
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: cadetblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px black;
+  cursor: pointer;
+}
